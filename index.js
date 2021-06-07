@@ -9,6 +9,6 @@ ui.question('Hi there! What is your name?\n\n', input => {
     ui.close();
 })
 
-function sayHello(name){
-    return `\tHello, ${name}!\n`
+function sayHello(name) {
+    return `\tHello, ${name}!, it's nice to meet you!\n`
 }
